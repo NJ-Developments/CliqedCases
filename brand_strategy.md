@@ -3,10 +3,11 @@
 ## Brand Overview
 
 **Name:** CLIQED (pronounced "Clicked")  
-**Tagline:** Snap. Click. Go.  
-**Positioning:** Your phone, for every mood.
+**Tagline:** Snap. Cliq. Go.  
+**Positioning:** Your accessory, for every mood.
 
 **The Vibe:**
+- colors can mix match u can mix colors with different accesory colors and different case differnet colors pushing customizability. 
 - Clean, minimal, "That Girl" aesthetic
 - Fashion infrastructure, not tech gear
 - Premium but accessible
@@ -34,7 +35,7 @@ The foundation. A slim, premium case with a hidden magnetic dock.
 - Slim profile — doesn't add bulk
 - Wireless charging compatible
 
-**Price:** $30
+**Price:** $39
 
 ---
 
@@ -44,7 +45,7 @@ The foundation. A slim, premium case with a hidden magnetic dock.
 Silicone suction pad for hands-free filming.
 
 **Colors:** Charcoal, Cloud White  
-**Price:** $22
+**Price:** $29
 
 **Features:**
 - Sticks to mirrors, windows, gym machines
@@ -60,7 +61,7 @@ Silicone suction pad for hands-free filming.
 Flexible silicone loop for holding tubes.
 
 **Colors:** Sky Blue, Sage, Blush  
-**Price:** $18
+**Price:** $24
 
 **Features:**
 - Fits Rhode, Summer Fridays, lip liners, pens
@@ -76,7 +77,7 @@ Flexible silicone loop for holding tubes.
 Jewelry-grade ring grip + kickstand.
 
 **Colors:** Gold, Silver, Rose Gold  
-**Price:** $20
+**Price:** $29
 
 **Features:**
 - 360° rotation
@@ -92,7 +93,7 @@ Jewelry-grade ring grip + kickstand.
 Slim cardholder attachment.
 
 **Colors:** Noir, Cognac  
-**Price:** $24
+**Price:** $39
 
 **Features:**
 - Holds 1-3 cards
@@ -123,16 +124,16 @@ Customers can mix and match:
 
 | Bundle | Contents | Price |
 |--------|----------|-------|
-| The Starter | Canvas + 1 Attachment | $45 |
-| Content Creator Kit | Canvas + Sticky + Keep | $59 |
-| The Full Set | Canvas + All 4 Attachments | $89 |
+| The Starter | Canvas + 1 Attachment | $59 |
+| Content Creator Kit | Canvas + Sticky + Keep | $79 |
+| The Full Set | Canvas + All 4 Attachments | $129 |
 
 **Individual pricing:**
-- The Canvas: $30
-- The Sticky: $22
-- The Keep: $18
-- The Stand: $20
-- The Wallet: $24
+- The Canvas: $39
+- The Sticky: $29
+- The Keep: $24
+- The Stand: $29
+- The Wallet: $39
 
 ---
 
