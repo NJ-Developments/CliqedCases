@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | CLIQED</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">CLIQED</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+            </ul>
+            <a href="#bundles" class="nav-cta">Shop Bundles</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="shop-hero">
+        <div class="container">
+            <h1 class="fade-in">Shop CLIQED</h1>
+            <p class="fade-in delay-1">One case. Endless possibilities. Build your perfect setup.</p>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="product-grid-section">
+        <div class="container">
+            
+            <!-- Featured: The Canvas -->
+            <div class="featured-product fade-up" id="canvas">
+                <div class="featured-image">
+                    <img src="images/canvas.png" alt="The Canvas base case">
+                </div>
+                <div class="featured-info">
+                    <span class="product-tag">Start Here</span>
+                    <h2>The Canvas</h2>
+                    <p class="featured-tagline">Base Case</p>
+                    <p class="featured-description">Our slim base case with a hidden magnetic dock. This is where the magic starts — every attachment snaps on with a satisfying click.</p>
+                    
+                    <div class="color-selector">
+                        <span class="color-label">Color</span>
+                        <div class="color-options">
+                            <button class="color-dot active" style="background: #A8B5A0;" title="Sage"></button>
+                            <button class="color-dot" style="background: #F5F5F0;" title="Milk"></button>
+                            <button class="color-dot" style="background: #D4C4B0;" title="Latte"></button>
+                            <button class="color-dot" style="background: #2D2D2D;" title="Noir"></button>
+                            <button class="color-dot" style="background: #E8D4D4;" title="Blush"></button>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-footer">
+                        <span class="featured-price">$30</span>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attachments Header -->
+            <div class="attachments-header fade-up">
+                <h2>The Attachments</h2>
+                <p>Snap on. Switch up. Repeat.</p>
+            </div>
+
+            <!-- Attachments Grid -->
+            <div class="products-grid">
+                
+                <!-- The Sticky -->
+                <div class="product-card fade-up" id="sticky">
+                    <div class="card-image">
+                        <span class="card-badge">Fan Favorite</span>
+                        <img src="images/sticky.png" alt="The Sticky attachment">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Sticky</h3>
+                        <p class="card-tagline">'Content Creator'</p>
+                        <p class="card-description">Suction pad for hands-free filming. Sticks to mirrors, windows, gym machines.</p>
+                        
+                        <div class="color-selector-mini">
+                            <div class="color-options">
+                                <button class="color-dot active" style="background: #4A4A4A;" title="Charcoal"></button>
+                                <button class="color-dot" style="background: #FFFFFF; border: 1px solid #ddd;" title="Cloud"></button>
+                            </div>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <span class="card-price">$22</span>
+                            <button class="btn btn-small btn-primary">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Keep -->
+                <div class="product-card fade-up" id="keep">
+                    <div class="card-image">
+                        <img src="images/gloss clip.png" alt="The Keep attachment">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Keep</h3>
+                        <p class="card-tagline">'Gloss Clip'</p>
+                        <p class="card-description">Silicone loop for your lip gloss, liner, or whatever you can't leave behind.</p>
+                        
+                        <div class="color-selector-mini">
+                            <div class="color-options">
+                                <button class="color-dot active" style="background: #A8D4E6;" title="Sky Blue"></button>
+                                <button class="color-dot" style="background: #A8B5A0;" title="Sage"></button>
+                                <button class="color-dot" style="background: #E8D4D4;" title="Blush"></button>
+                            </div>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <span class="card-price">$18</span>
+                            <button class="btn btn-small btn-primary">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Stand -->
+                <div class="product-card fade-up" id="stand">
+                    <div class="card-image">
+                        <img src="images/ring stand.png" alt="The Stand attachment">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Stand</h3>
+                        <p class="card-tagline">'Glow Ring'</p>
+                        <p class="card-description">Ring grip + kickstand in one. 360° rotation for selfies, FaceTime, Netflix.</p>
+                        
+                        <div class="color-selector-mini">
+                            <div class="color-options">
+                                <button class="color-dot active" style="background: linear-gradient(135deg, #D4AF37, #F4E4BA);" title="Gold"></button>
+                                <button class="color-dot" style="background: linear-gradient(135deg, #C0C0C0, #E8E8E8);" title="Silver"></button>
+                                <button class="color-dot" style="background: linear-gradient(135deg, #E8B4B8, #F4D4D4);" title="Rose Gold"></button>
+                            </div>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <span class="card-price">$20</span>
+                            <button class="btn btn-small btn-primary">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Wallet -->
+                <div class="product-card fade-up" id="wallet">
+                    <div class="card-image">
+                        <img src="images/wallet.png" alt="The Wallet attachment">
+                    </div>
+                    <div class="card-info">
+                        <h3>The Wallet</h3>
+                        <p class="card-tagline">'Night Out'</p>
+                        <p class="card-description">Slim cardholder for 1-3 cards. RFID blocking. Leave the purse at home.</p>
+                        
+                        <div class="color-selector-mini">
+                            <div class="color-options">
+                                <button class="color-dot active" style="background: #2D2D2D;" title="Noir"></button>
+                                <button class="color-dot" style="background: #8B4513;" title="Cognac"></button>
+                            </div>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <span class="card-price">$24</span>
+                            <button class="btn btn-small btn-primary">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Bundles Section -->
+    <section id="bundles" class="bundles-section">
+        <div class="container">
+            <h2 class="fade-in">Starter Kits</h2>
+            <p class="section-subtitle fade-in delay-1">Save when you bundle. Everything you need in one box.</p>
+
+            <div class="bundle-cards">
+                <!-- Starter -->
+                <div class="bundle-card fade-up">
+                    <h3>The Starter</h3>
+                    <p class="bundle-contents">Canvas + 1 Attachment</p>
+                    <div class="bundle-pricing">
+                        <span class="bundle-original">$52</span>
+                        <span class="bundle-sale">$45</span>
+                    </div>
+                    <ul class="bundle-features">
+                        <li>Choose your Canvas color</li>
+                        <li>Choose any 1 attachment</li>
+                        <li>Free storage pouch</li>
+                        <li>Free shipping</li>
+                    </ul>
+                    <button class="btn btn-secondary">Select Kit</button>
+                </div>
+
+                <!-- Content Creator -->
+                <div class="bundle-card featured fade-up">
+                    <span class="bundle-badge">Most Popular</span>
+                    <h3>Content Creator</h3>
+                    <p class="bundle-contents">Canvas + Sticky + Keep</p>
+                    <div class="bundle-pricing">
+                        <span class="bundle-original">$70</span>
+                        <span class="bundle-sale">$59</span>
+                    </div>
+                    <ul class="bundle-features">
+                        <li>Choose your Canvas color</li>
+                        <li>The Sticky (Content Creator)</li>
+                        <li>The Keep (Gloss Clip)</li>
+                        <li>Free storage pouch</li>
+                        <li>Free shipping</li>
+                    </ul>
+                    <button class="btn btn-primary">Select Kit</button>
+                </div>
+
+                <!-- Full Set -->
+                <div class="bundle-card fade-up">
+                    <h3>The Full Set</h3>
+                    <p class="bundle-contents">Canvas + All 4 Attachments</p>
+                    <div class="bundle-pricing">
+                        <span class="bundle-original">$114</span>
+                        <span class="bundle-sale">$89</span>
+                    </div>
+                    <ul class="bundle-features">
+                        <li>Choose your Canvas color</li>
+                        <li>All 4 attachments included</li>
+                        <li>Premium velvet pouch</li>
+                        <li>Priority shipping</li>
+                    </ul>
+                    <button class="btn btn-secondary">Select Kit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item fade-up">
+                    <h4>Free Shipping</h4>
+                    <p>On orders over $50</p>
+                </div>
+                <div class="trust-item fade-up">
+                    <h4>Easy Returns</h4>
+                    <p>30-day return policy</p>
+                </div>
+                <div class="trust-item fade-up">
+                    <h4>Secure Checkout</h4>
+                    <p>SSL encrypted payment</p>
+                </div>
+                <div class="trust-item fade-up">
+                    <h4>Support</h4>
+                    <p>We're here to help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo">CLIQED</span>
+                    <p>Your phone, for every mood.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#canvas">The Canvas</a></li>
+                        <li><a href="#sticky">The Sticky</a></li>
+                        <li><a href="#bundles">Bundles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Follow</h4>
+                    <ul>
+                        <li><a href="#">TikTok</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 CLIQED. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

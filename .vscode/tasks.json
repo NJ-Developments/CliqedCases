@@ -1,0 +1,13 @@
+{
+    "tasks": [
+        {
+            "label": "Open Brand Strategy",
+            "type": "shell",
+            "command": "code 'c:\\Users\\acpsp\\OneDrive\\Desktop\\Multi Case\\brand_strategy.md'",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
